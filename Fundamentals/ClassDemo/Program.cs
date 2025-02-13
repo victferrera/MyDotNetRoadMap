@@ -13,7 +13,7 @@
         Console.WriteLine("myObject is equal to mySecondObject? {0}", Object.ReferenceEquals(myObject, mySecondObject));
         // Should return false, since we have two distinct memory address
         MyClass myThirdObject = new MyClass();
-        Console.WriteLine(Object.ReferenceEquals(mySecondObject, myThirdObject));
+        Console.WriteLine("mySecondObject is equal to myThirdObject? {0}", Object.ReferenceEquals(mySecondObject, myThirdObject));
 
         // About instance.Equals() and Object.ReferenceEquals()
         // instance Equals() could be invoked on any instance except null
