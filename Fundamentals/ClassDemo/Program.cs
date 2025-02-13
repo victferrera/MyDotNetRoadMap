@@ -16,8 +16,8 @@
         Console.WriteLine("mySecondObject is equal to myThirdObject? {0}", Object.ReferenceEquals(mySecondObject, myThirdObject));
 
         // About instance.Equals() and Object.ReferenceEquals()
-        // instance Equals() could be invoked on any instance except null
-        // Object.ReferenceEquals() can be invoke using two nulls and will never throw a NullReferenceException
+        // instance Equals() could be invoked on any instance except null, can be overriden
+        // Object.ReferenceEquals() can be invoke using two nulls and will never throw a NullReferenceException, can't be overriden
     }
 }
 
